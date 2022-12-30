@@ -13,11 +13,8 @@ def p1():
     for line in get_input():
         line = line.strip()
         x,y,z = map(int, line.split())
-        print(f"x = {x}, y = {y}, z = {z}")
         if (x+y > z) and (y+z > x) and (z+x > y):
             counter += 1
-            print("counter increment by one")
-
 
     print(counter)
 
