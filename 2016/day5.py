@@ -39,5 +39,7 @@ def p2():
         
         print("".join(ps_list))
 
+print("-- Part One --")
 p1()
+print("-- Part Two --")
 p2()
